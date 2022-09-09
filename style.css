@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #F8FCFF;
+    overflow-x: hidden;
+}
+.nav-link{
+    color:  #404041;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: blue;
+    transform: scale(1.05);
+}
+.nav:hover{
+    transform: scale(1.05);
+}
+.ellipse{
+    margin-top: 10px;
+    border: 1.4px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+}
+.ellipse:hover{
+    transform: scale(1.05);
+}
+.head_text h1{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #222223;
+}
+.head_text p{
+    color: #535354;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hdcard img{
+    width: 600px;
+    height: 500px;
+}
+.hot h1 {
+    text-align: center;
+}
+.hot img{
+    margin-left: 5%;
+}
+.p-4{
+    margin-top: 5%;
+    text-align: center;
+}
+.section_five{
+    margin-top: 10%;
+    text-align: center;
+}
+.cashback, .terms, .save_money{
+    margin-top: 10%;
+    line-height: 30px;
+}
+.sec_footer{
+    margin-top: 5%;
+    background-color:#41B3F4;
+}
+.btn{
+    background-color: #E15C19;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.decoration a{
+    text-decoration: none;
+    color: #404041;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+}
